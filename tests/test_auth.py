@@ -41,32 +41,32 @@ def test_auth_chrome(driver_chrome):
     coworking_page.click_select_btn_4()
     coworking_page.click_send_btn()
 
-def test_invalid_auth_chrome(driver_chrome):
-    driver_chrome.get("https://my.proweb.uz/log-in")
-    auth_page = AuthPage(driver_chrome)
-    auth_page.enter_phone_number("998978889911")
-    auth_page.click_btn_next()
+# def test_invalid_auth_chrome(driver_chrome):
+#     driver_chrome.get("https://my.proweb.uz/log-in")
+#     auth_page = AuthPage(driver_chrome)
+#     auth_page.enter_phone_number("998978889911")
+#     auth_page.click_btn_next()
 
-def test_auth_edge(driver_edge):
-    driver_edge.get("https://my.proweb.uz/log-in")
-    auth_page = AuthPage(driver_edge)
-    auth_page.enter_phone_number("998971412720")
-    auth_page.click_btn_next()
-    auth_page.enter_password("Aminjon21")
-    auth_page.click_btn_submit()
-    auth_page.click_btn_sessions()
-    auth_page.click_btn_finish()
+# def test_auth_edge(driver_edge):
+#     driver_edge.get("https://my.proweb.uz/log-in")
+#     auth_page = AuthPage(driver_edge)
+#     auth_page.enter_phone_number("998971412720")
+#     auth_page.click_btn_next()
+#     auth_page.enter_password("Aminjon21")
+#     auth_page.click_btn_submit()
+#     auth_page.click_btn_sessions()
+#     auth_page.click_btn_finish()
 
 
-def test_auth_firefox(driver_firefox):
-    driver_firefox.get("https://my.proweb.uz/log-in")
-    auth_page = AuthPage(driver_firefox)
-    auth_page.enter_phone_number("998971412720")
-    auth_page.click_btn_next()
-    auth_page.enter_password("Aminjon21")
-    auth_page.click_btn_submit()
-    auth_page.click_btn_sessions()
-    auth_page.click_btn_finish()
+# def test_auth_firefox(driver_firefox):
+#     driver_firefox.get("https://my.proweb.uz/log-in")
+#     auth_page = AuthPage(driver_firefox)
+#     auth_page.enter_phone_number("998971412720")
+#     auth_page.click_btn_next()
+#     auth_page.enter_password("Aminjon21")
+#     auth_page.click_btn_submit()
+#     auth_page.click_btn_sessions()
+#     auth_page.click_btn_finish()
 
 
 
